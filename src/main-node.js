@@ -13,10 +13,7 @@ BiwaScheme.Port.current_error = current_error;
 // node-specific code
 //
 
-import "./platforms/node/node_functions.js"
-
-import { run, run_file } from "./platforms/node/run.js"
+import { run } from "./platforms/node/run.js"
 BiwaScheme.run = run;
-BiwaScheme.run_file = run_file;
 
 module.exports = BiwaScheme;

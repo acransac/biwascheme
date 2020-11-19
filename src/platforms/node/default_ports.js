@@ -1,18 +1,6 @@
 import { Port } from "../../system/port.js"
 
-const current_input = new Port.CustomInput(
-  function (callback) {
-    var rl = require('readline').createInterface({
-      input: process.stdin
-    });
-    rl.on('line', function (line) {
-      rl.close();
-      callback(line);
-    });
-    rl.setPrompt('', 0);
-    rl.prompt()
-  }
-);
+const current_input = Port.current_input;
 
 const current_output = new Port.CustomOutput(
   function (str) {

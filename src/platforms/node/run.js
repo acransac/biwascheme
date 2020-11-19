@@ -16,11 +16,4 @@ const run = function(code, opts) {
   });
   return intp.evaluate(code);
 };
-
-const run_file = function(filename, encoding/*optional*/) {
-  var enc = encoding || 'utf8';
-  var src = require('fs').readFileSync(filename, enc);
-  return run(src);
-};
-
-export { run, run_file };
+export { run };
