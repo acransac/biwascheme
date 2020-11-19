@@ -6,6 +6,8 @@ BiwaScheme is a Scheme interpreter written in JavaScript.
 
 Works with web browsers (including mobile devices) and Node.js.
 
+This fork aims to adapt the upstream BiwaScheme for Node.js to web workers and Node's worker threads. Also, the system APIs (sockets, filesystem, imports...) are neutralized, expecting Scheme programs running in threads to be closed systems.
+
 ## Demos
 
 see [http://www.biwascheme.org/](http://www.biwascheme.org/)
