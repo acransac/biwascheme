@@ -16,6 +16,12 @@ Internal changes
 
 - Changed build system to rollup.js (#160)
 
+## 2020-11-19 v0.7.0+1.0.0
+
+  * Removed Node specific functions
+  * Removed `BiwaScheme.run_file`
+  * Nullified the input port in Node environment
+
 ## 2020-03-26 v0.7.0
 
   * new: Arity check for Scheme closures (#132)
