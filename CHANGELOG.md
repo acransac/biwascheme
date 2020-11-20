@@ -16,6 +16,12 @@ Internal changes
 
 - Changed build system to rollup.js (#160)
 
+## 2020-11-20 v0.7.0-101
+
+  * Added explicit credits to the original author and maintainers
+  * Added license file in the npm distribution
+  * Changed version number format for compatibility with npm
+
 ## 2020-11-19 v0.7.0+1.0.0
 
   * Removed Node specific functions

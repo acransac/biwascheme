@@ -1,5 +1,9 @@
 # BiwaScheme
 
+**[This is a fork](https://github.com/biwascheme/biwascheme). All credits go to the original author Yutaka Hara and the maintainers. Copyright (c) Yutaka Hara**
+
+**See the license file in the repository or distributed with the npm package**
+
 [![biwascheme logo](http://www.biwascheme.org/website/images/biwascheme_logo.png)](http://www.biwascheme.org)
 
 BiwaScheme is a Scheme interpreter written in JavaScript.
